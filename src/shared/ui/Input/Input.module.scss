@@ -1,0 +1,99 @@
+.container {
+    transition: all 0.1s ease 0s;
+
+    .input {
+        transition: all 0.3s ease 0s;
+        background-color: transparent;
+        border: none;
+        color: var(--input-text-color);
+        flex: 0 0 auto;
+        height: var(--input-height-desktop);
+        font-size: var(--input-font-size-desktop);
+    
+        &::placeholder {
+            color: var(--input-placeholder-color);
+        }
+    }
+
+    .input_container {
+        transition: all 0.1s ease 0s;
+        border: 1px solid var(--input-text-color);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding-left: 5px;
+        justify-content: flex-start;
+        height: var(--input-height-desktop);
+        border-radius: 8px;
+        padding: 0 14px;
+    }
+    
+    .label {
+        transition: all 0.1s ease 0s;
+        color: var(--input-text-color);
+        font-size: var(--input-label-font-size-desktop);
+    }
+
+    .addonLeft {
+        fill: var(--input-text-color);
+        height: var(--input-icon-size-desktop); 
+        width: var(--input-icon-size-desktop); 
+        flex: 0 0 var(--input-icon-size-desktop); 
+        display: flex;
+        align-items: center;
+    }
+}
+
+.container:focus-within {
+    .input {
+        background-color: transparent;
+        color: var(--input-focus-color);
+        outline: none;
+    
+        &::placeholder {
+            color: var(--input-focus-color)
+        }
+    }
+
+    .input_container {
+        border: 1px solid var(--input-focus-color);
+    }
+    
+    .label {
+        color: var(--input-focus-color);
+    }
+
+    .addonLeft { 
+        fill: var(--input-focus-color);
+    }
+}
+
+.danger{
+    .input {
+        background-color: transparent;
+        color: var(--input-error-color);
+        outline: none;
+    
+        &::placeholder {
+            color: var(--input-error-color)
+        }
+    }
+
+    .input_container {
+        border: 1px solid var(--input-error-color);
+    }
+    
+    .label {
+        color: var(--input-error-color);
+    }
+
+    .addonLeft { 
+        fill: var(--input-error-color);
+    }
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+
