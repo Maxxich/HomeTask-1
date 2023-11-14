@@ -1,0 +1,60 @@
+.Button {
+    height: var(--button-default-height-desktop);
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 0 15px;
+    border-radius: 8px;
+    transition: all 0.15s ease 0s;
+
+    &:focus {
+        outline: none;
+    }
+
+    &:active {
+        transform: scale(0.98);
+    }
+}
+
+.text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: var(--button-default-font-size-desktop);
+    text-wrap: nowrap;
+}
+
+.colored {
+    background-color: var(--button-colored-bg);
+
+    &:focus{
+        background-color: var(--button-colored-bg-focused);
+    }
+
+    &:hover{
+        background-color: var(--button-colored-bg-hovered);
+    }
+}
+
+.dark {
+    background-color: var(--button-dark-bg);
+
+    &:focus{
+        background-color: var(--button-dark-bg-focused);
+    }
+
+    &:hover{
+        background-color: var(--button-dark-bg-hovered);
+    }
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+.addon {
+    height: var(--button-default-icon-size-desktop);
+    width: var(--button-default-icon-size-desktop);
+    flex: 0 0 var(--button-default-icon-size-desktop);
+}
