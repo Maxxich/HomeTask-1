@@ -1,4 +1,6 @@
 .app_violet_theme {
+
+    // button
     --button-colored-bg: #A080FF;
     --button-colored-bg-focused: #7B4EFF;
     --button-colored-bg-hovered: #8F6AFB;
@@ -6,4 +8,7 @@
     --button-dark-bg: #292929;
     --button-dark-bg-focused: #555555;
     --button-dark-bg-hovered: #494949;
+
+    // separator
+    --separator-bg: #fff;
 }
