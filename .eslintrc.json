@@ -1,7 +1,27 @@
 {
   "extends": [
-    "next/core-web-vitals",
-    "plugin:storybook/recommended",
-    "plugin:storybook/recommended"
-  ]
+    "next/core-web-vitals"
+  ],
+  "plugins": ["unused-imports"],
+  "rules": {
+    "unused-imports/no-unused-imports": "error",
+    "quotes": ["error", "single"],
+    "react/no-unescaped-entities": "warn",
+    "object-curly-spacing": ["error", "always"],
+    "indent": ["error", 4],
+    "import/order": 
+    [
+        1, 
+        { "groups": 
+            [
+              "external", 
+              "builtin", 
+              "internal", 
+              "sibling", 
+              "parent", 
+              "index"
+            ]
+        } 
+      ] 
+  }
 }
