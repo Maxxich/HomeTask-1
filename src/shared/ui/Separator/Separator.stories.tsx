@@ -8,7 +8,7 @@ const meta = {
     parameters: {
         layout: 'centered',
     },
-    render: (args) => <div style={{width: 200}}>
+    render: (args) => <div style={{ width: 200 }}>
         <Separator {...args}/>
     </div>,
     tags: ['autodocs'],

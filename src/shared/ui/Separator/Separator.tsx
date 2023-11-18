@@ -1,5 +1,5 @@
-import classNames from "classnames"
-import cls from "./Separator.module.scss"
+import classNames from 'classnames'
+import cls from './Separator.module.scss'
 
 type Width = 'fullwidth'
 
