@@ -8,7 +8,7 @@ const meta = {
     parameters: {
         layout: 'centered',
     },
-    render: (args) => <div style={{width: 200}}>
+    render: (args) => <div style={{ width: 200 }}>
         <Button {...args}/>
     </div>,
     argTypes: { onClick: { action: 'clicked' } },
@@ -38,5 +38,29 @@ export const DarkWithAddon: Story = {
         ...args,
         variant: 'dark',
         addonLeft: <IconGitHub/>
+    }
+}
+
+export const ColoredDisabled: Story = {
+    args: {
+        ...args,
+        disabled: true
+    }
+}
+
+export const DarkDisabled: Story = {
+    args: {
+        ...args,
+        variant: 'dark',
+        disabled: true
+    }
+}
+
+export const DarkWithAddonDisabled: Story = {
+    args: {
+        ...args,
+        variant: 'dark',
+        addonLeft: <IconGitHub/>,
+        disabled: true
     }
 }

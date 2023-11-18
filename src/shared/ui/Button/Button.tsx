@@ -1,6 +1,6 @@
-import classNames from "classnames"
-import { ReactElement } from "react"
-import cls from "./Button.module.scss"
+import classNames from 'classnames'
+import { ReactElement } from 'react'
+import cls from './Button.module.scss'
 
 type Width = 'fullwidth'
 type Variant = 'colored' | 'dark'
@@ -33,6 +33,9 @@ export const Button: React.FunctionComponent<IButtonProps> = ({
         cls.Button,
         cls[width],
         cls[variant],
+        {
+            [cls.disabled]: rest.disabled
+        },
         className
     )
 
