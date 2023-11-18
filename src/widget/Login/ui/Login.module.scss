@@ -1,0 +1,48 @@
+.container {
+    width: 100%;
+    padding: 31px 23px;
+    border: 2px solid var(--container-border-color);
+    border-radius: 10px;
+    background-color: rgba(0 0 0 / 50%);
+    backdrop-filter: blur(20px);
+
+    @media (width >=450px) {
+        width: 318px;
+    }
+}
+
+.separator1{
+    margin: 25px 0 20px;
+}
+
+.separator2{
+    margin: 20px 0 25px;
+}
+
+.margin12 {
+    margin-bottom: 12px;
+}
+
+.logo {
+    width: 52px;
+    height: 47px;
+    margin: 0 auto 17px;
+    display: block;
+}
+
+.h1 {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 auto 21px;
+    display: block;
+    width: fit-content;
+}
+
+.span {
+    font-size: 12px;
+    font-weight:bold;
+}
+
+.login {
+    margin-bottom: 6px;
+}
