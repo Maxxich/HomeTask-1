@@ -6,7 +6,7 @@ const meta = {
     title: 'shared/Input',
     component: Input,
     argTypes: { onClick: { action: 'clicked' } },
-    render: (args) => <div style={{width: 300}}>
+    render: (args) => <div style={{ width: 300 }}>
         <Input {...args}/>
     </div>,
     tags: ['autodocs'],

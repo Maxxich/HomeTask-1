@@ -53,6 +53,7 @@ export const Input: React.FunctionComponent<IInputProps> = ({
     // container section
     const conatinerMods: Mods = {
         [cls.danger]: isError,
+        [cls.disabled]: disabled
         
     }
     
