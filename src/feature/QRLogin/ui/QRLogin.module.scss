@@ -1,0 +1,16 @@
+.text {
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-wrap: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 18px;
+    overflow: hidden;
+}
