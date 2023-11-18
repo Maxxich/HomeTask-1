@@ -1,0 +1,21 @@
+.container {
+    position: relative;
+    display: block;
+}
+  
+.text {
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    text-wrap: nowrap;
+}
+  
+.cursor {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    height: 30px;
+    width: 3px;
+    background-color: #fff;
+}
