@@ -44,7 +44,7 @@ Cлои (layers): `shared`, `feature`, `widgets`, `global`, `app`
 
 ## Виджеты (widgets)
 
-- [Login](/src/widgets/Login)
-- [Register](/src/widgets/Register)
+- [Login](/src/widget/Login)
+- [Register](/src/widget/Register)
 
 
