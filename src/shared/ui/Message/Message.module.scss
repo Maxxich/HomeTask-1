@@ -1,0 +1,23 @@
+.span {
+    font-size: 12px;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+}
+
+.fullwidth {
+    width: 100%;
+}
+
+.fit-content {
+    width: fit-content;
+}
+
+.danger {
+    color: var(--message-error-color);
+}
+
+.green {
+    color: var(--message-green-color);
+}
